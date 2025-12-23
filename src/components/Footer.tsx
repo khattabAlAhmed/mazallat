@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import { FaWhatsapp, FaInstagram, FaSnapchat, FaTiktok, FaXTwitter } from 'react-icons/fa6';
+import Image from 'next/image';
 
 const Footer = () => {
     const t = useTranslations('Footer');
@@ -15,7 +16,7 @@ const Footer = () => {
         { icon: FaSnapchat, href: 'https://snapchat.com', label: 'Snapchat', color: 'hover:bg-yellow-400' },
         { icon: FaTiktok, href: 'https://tiktok.com', label: 'TikTok', color: 'hover:bg-black' },
         { icon: FaXTwitter, href: 'https://twitter.com', label: 'X', color: 'hover:bg-black' },
-        { icon: FaWhatsapp, href: 'https://wa.me/966500000000', label: 'WhatsApp', color: 'hover:bg-green-500' },
+        { icon: FaWhatsapp, href: 'https://wa.me/966538256520', label: 'WhatsApp', color: 'hover:bg-green-500' },
     ];
 
     const quickLinks = [
@@ -54,9 +55,13 @@ const Footer = () => {
                     {/* Brand Section */}
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-3 mb-6">
-                            <div className="w-12 h-12 rounded-xl bg-gradient-primary flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-                                ف
-                            </div>
+                            <Image
+                                src="/logo.png"
+                                alt={locale === 'ar' ? 'فن المظلات' : 'Fan Al-Mazallat'}
+                                width={48}
+                                height={48}
+                                className="w-12 h-12 rounded-xl shadow-lg"
+                            />
                             <div>
                                 <h3 className="text-xl font-bold">{locale === 'ar' ? 'فن المظلات' : 'Fan Al-Mazallat'}</h3>
                                 <p className="text-sm text-white/60">{locale === 'ar' ? 'جدة - السعودية' : 'Jeddah - KSA'}</p>
@@ -139,15 +144,15 @@ const Footer = () => {
                         </h4>
                         <ul className="space-y-4">
                             <li>
-                                <Link href="tel:+966500000000" className="flex items-start gap-3 text-white/70 hover:text-primary transition-colors">
+                                <Link href="tel:+966534395103" className="flex items-start gap-3 text-white/70 hover:text-primary transition-colors">
                                     <Phone className="w-5 h-5 mt-0.5 text-primary" />
-                                    <span dir="ltr">+966 50 000 0000</span>
+                                    <span dir="ltr">+966 53 439 5103</span>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="https://wa.me/966500000000" className="flex items-start gap-3 text-white/70 hover:text-green-400 transition-colors">
+                                <Link href="https://wa.me/966538256520" className="flex items-start gap-3 text-white/70 hover:text-green-400 transition-colors">
                                     <FaWhatsapp className="w-5 h-5 mt-0.5 text-green-400" />
-                                    <span dir="ltr">+966 50 000 0000</span>
+                                    <span dir="ltr">+966 53 825 6520</span>
                                 </Link>
                             </li>
                             <li className="flex items-start gap-3 text-white/70">

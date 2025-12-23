@@ -5,10 +5,15 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslations, useLocale } from 'next-intl';
 import { Award, Users, ThumbsUp } from 'lucide-react';
+import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const AboutSection = () => {
+interface AboutSectionProps {
+    imageSrc?: string; // Path to the about image
+}
+
+const AboutSection = ({ imageSrc = "/about.jpeg" }: AboutSectionProps) => {
     const t = useTranslations('AboutSection');
     const locale = useLocale();
     const sectionRef = useRef<HTMLElement>(null);
@@ -127,27 +132,22 @@ const AboutSection = () => {
                         </div>
                     </div>
 
-                    {/* Image/Visual */}
+                    {/* Image */}
                     <div ref={imageRef} className="order-1 lg:order-2">
                         <div className="relative">
                             {/* Main Image Container */}
                             <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
-                                {/* Animated Gradient Background */}
-                                <div className="absolute inset-0 bg-gradient-to-br from-primary via-cyan-500 to-emerald-500">
-                                    <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50" />
-                                </div>
+                                <Image
+                                    src={imageSrc}
+                                    alt={locale === 'ar' ? 'فن المظلات' : 'Fan Al-Mazallat'}
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    priority
+                                />
 
-                                {/* Icon Display */}
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="text-white/90">
-                                        <svg className="w-32 h-32 md:w-48 md:h-48" viewBox="0 0 100 100" fill="none">
-                                            <path d="M20 80 L50 20 L80 80 Z" stroke="currentColor" strokeWidth="3" fill="none" />
-                                            <circle cx="50" cy="45" r="12" stroke="currentColor" strokeWidth="3" fill="none" />
-                                            <line x1="50" y1="57" x2="50" y2="88" stroke="currentColor" strokeWidth="3" />
-                                            <line x1="30" y1="65" x2="70" y2="65" stroke="currentColor" strokeWidth="2" />
-                                        </svg>
-                                    </div>
-                                </div>
+                                {/* Subtle gradient overlay for aesthetics */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent" />
                             </div>
 
                             {/* Floating Badge */}

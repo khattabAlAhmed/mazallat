@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <main>
         {/* Hero with YouTube video background - add youtubeVideoId prop when ready */}
-        <HeroSection />
+        <HeroSection youtubeVideoId="vcu2xyCyqps" />
 
         {/* About / Story Section */}
         <AboutSection />
@@ -21,7 +21,8 @@ export default function Home() {
         {/* Services Section */}
         <ServicesSection />
 
-        {/* Projects / Portfolio Section */}
+        {/* Projects / Portfolio Section - add youtubeVideoId prop for video background */}
+        {/* Example: <ProjectsSection youtubeVideoId="YOUR_VIDEO_ID" /> */}
         <ProjectsSection />
 
         {/* Why Choose Us Section */}

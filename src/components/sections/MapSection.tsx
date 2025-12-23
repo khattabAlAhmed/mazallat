@@ -14,7 +14,7 @@ interface MapSectionProps {
 }
 
 const MapSection = ({
-    embedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.6777826285066!2d39.17243!3d21.54238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDMyJzMyLjYiTiAzOcKwMTAnMjAuNyJF!5e0!3m2!1sen!2ssa!4v1234567890"
+    embedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476882.2047870035!2d38.505156!3d21.342717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d01fb1137e59%3A0xe059579737b118db!2sJeddah%20Saudi%20Arabia!5e0!3m2!1sen!2sae!4v1703378400000"
 }: MapSectionProps) => {
     const t = useTranslations('MapSection');
     const locale = useLocale();
@@ -106,7 +106,7 @@ const MapSection = ({
                                     {t('card.address')}
                                 </p>
                                 <Link
-                                    href="https://maps.google.com/?q=21.54238,39.17243"
+                                    href="https://www.google.com/maps?ll=21.342717,39.005156&z=9&q=Jeddah+Saudi+Arabia"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-primary to-cyan-500 text-white rounded-xl text-sm font-medium hover:shadow-lg transition-all duration-300"

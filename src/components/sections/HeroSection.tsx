@@ -124,7 +124,7 @@ const HeroSection = ({ youtubeVideoId = "" }: HeroSectionProps) => {
                         >
                             {/* WhatsApp Button */}
                             <Link
-                                href="https://wa.me/966500000000?text=مرحباً، أريد الاستفسار عن خدماتكم"
+                                href="https://wa.me/966538256520?text=مرحباً، أريد الاستفسار عن خدماتكم"
                                 target="_blank"
                                 className="w-full sm:w-auto group relative px-6 sm:px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-2xl font-semibold text-base sm:text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(34,197,94,0.4)] flex items-center justify-center gap-3"
                             >
@@ -144,7 +144,7 @@ const HeroSection = ({ youtubeVideoId = "" }: HeroSectionProps) => {
 
                             {/* Call Button */}
                             <Link
-                                href="tel:+966500000000"
+                                href="tel:+966534395103"
                                 className="w-full sm:w-auto group relative px-6 sm:px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white rounded-2xl font-semibold text-base sm:text-lg overflow-hidden transition-all duration-300 hover:bg-white hover:text-slate-900 hover:scale-105 flex items-center justify-center gap-3"
                             >
                                 <FaPhone className="w-4 h-4 sm:w-5 sm:h-5" />

@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Header = () => {
     const t = useTranslations('HomePage');
@@ -35,16 +36,21 @@ const Header = () => {
         <>
             {/* Main Header - Sticky with glass effect */}
             <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? 'bg-background/90 backdrop-blur-lg shadow-lg border-b border-border'
-                    : 'bg-transparent'
+                ? 'bg-background/90 backdrop-blur-lg shadow-lg border-b border-border'
+                : 'bg-transparent'
                 }`}>
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between h-16 md:h-20">
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-primary flex items-center justify-center text-white font-bold text-xl md:text-2xl shadow-lg">
-                                ف
-                            </div>
+                            <Image
+                                src="/logo.png"
+                                alt={t('title')}
+                                width={48}
+                                height={48}
+                                className="w-10 h-10 md:w-12 md:h-12 rounded-xl shadow-lg"
+                                priority
+                            />
                             <div className="hidden sm:block">
                                 <h1 className={`text-lg md:text-xl font-bold transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
                                     }`}>
@@ -60,8 +66,8 @@ const Header = () => {
                                     key={item.label}
                                     href={item.href}
                                     className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-primary/10 ${isScrolled
-                                            ? 'text-foreground hover:text-primary'
-                                            : 'text-white/90 hover:text-white hover:bg-white/10'
+                                        ? 'text-foreground hover:text-primary'
+                                        : 'text-white/90 hover:text-white hover:bg-white/10'
                                         }`}
                                 >
                                     {item.label}
@@ -74,7 +80,7 @@ const Header = () => {
                             {/* Quick Contact - Desktop */}
                             <div className="hidden md:flex items-center gap-2">
                                 <Link
-                                    href="https://wa.me/966500000000"
+                                    href="https://wa.me/966534395103"
                                     target="_blank"
                                     className="flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
                                 >
@@ -82,7 +88,7 @@ const Header = () => {
                                     <span className="hidden xl:inline">واتساب</span>
                                 </Link>
                                 <Link
-                                    href="tel:+966500000000"
+                                    href="tel:+966534395103"
                                     className="flex items-center gap-2 px-4 py-2 bg-gradient-primary text-white rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
                                 >
                                     <Phone className="w-5 h-5" />
@@ -100,8 +106,8 @@ const Header = () => {
                             <button
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                                 className={`lg:hidden p-2 rounded-lg transition-colors ${isScrolled
-                                        ? 'hover:bg-muted'
-                                        : 'hover:bg-white/10 text-white'
+                                    ? 'hover:bg-muted'
+                                    : 'hover:bg-white/10 text-white'
                                     }`}
                                 aria-label="Toggle menu"
                             >
@@ -126,9 +132,13 @@ const Header = () => {
                         {/* Header */}
                         <div className="flex items-center justify-between p-4 border-b border-border">
                             <div className="flex items-center gap-2">
-                                <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center text-white font-bold text-xl">
-                                    ف
-                                </div>
+                                <Image
+                                    src="/logo.png"
+                                    alt={t('title')}
+                                    width={40}
+                                    height={40}
+                                    className="w-10 h-10 rounded-xl"
+                                />
                                 <h2 className="text-lg font-bold text-foreground">{t('title')}</h2>
                             </div>
                             <button
@@ -158,7 +168,7 @@ const Header = () => {
                         <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-border bg-muted/50">
                             <div className="flex gap-2">
                                 <Link
-                                    href="https://wa.me/966500000000"
+                                    href="https://wa.me/966538256520"
                                     target="_blank"
                                     className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl font-medium transition-colors"
                                 >
@@ -166,7 +176,7 @@ const Header = () => {
                                     <span>واتساب</span>
                                 </Link>
                                 <Link
-                                    href="tel:+966500000000"
+                                    href="tel:+966534395103"
                                     className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-gradient-primary text-white rounded-xl font-medium transition-colors"
                                 >
                                     <Phone className="w-5 h-5" />
