@@ -2,15 +2,12 @@
 
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { useParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
-import { Button } from './ui/button';
-import { GlobeIcon } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 export default function LanguageSwitch() {
   const router = useRouter();
   const pathname = usePathname();
   const params = useParams();
-  const t = useTranslations('LanguageSwitch');
 
   const currentLocale = params.locale as string;
 
@@ -20,13 +17,13 @@ export default function LanguageSwitch() {
   };
 
   return (
-    <Button
-      variant={'default'}
+    <button
       onClick={toggleLanguage}
-      className="cursor-pointer "
+      className="flex items-center gap-1.5 px-3 py-2 rounded-lg font-medium text-sm transition-all duration-300 hover:bg-primary/10 hover:text-primary"
+      aria-label={currentLocale === 'en' ? 'Switch to Arabic' : 'Switch to English'}
     >
-      <GlobeIcon className="w-4 h-4 me-2 dark:text-foreground" />
-      <span className='dark:text-foreground'>{currentLocale === 'en' ? 'ض' : 'En'}</span>
-    </Button>
+      <Globe className="w-4 h-4" />
+      <span className="font-semibold">{currentLocale === 'en' ? 'ع' : 'En'}</span>
+    </button>
   );
 }
