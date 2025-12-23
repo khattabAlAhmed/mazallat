@@ -1,29 +1,160 @@
 {
     "HomePage": {
-        "title": "My App",
-        "welcome": "Welcome to our application!"
+        "title": "Fan Al-Mazallat",
+        "welcome": "Welcome to Fan Al-Mazallat"
     },
     "HeroSection": {
-        "slides": {
-            "welcome": {
-                "title": "Welcome to Our Platform",
-                "caption": "Build amazing applications with our starter template"
+        "title": "Fan Al-Mazallat.. Where Luxury Meets Solid Protection",
+        "subtitle": "We provide modern shading solutions and smart screens designed for Saudi Arabia's climate. Precision engineering, up to 10-year warranty, and competitive prices in Jeddah.",
+        "buttons": {
+            "whatsapp": "WhatsApp Us",
+            "quote": "Get a Quote",
+            "call": "Call Now"
+        },
+        "badges": {
+            "guarantee": "10 Year Warranty",
+            "quality": "Original Materials",
+            "speed": "Fast Installation"
+        }
+    },
+    "AboutSection": {
+        "title": "Who We Are",
+        "subtitle": "Fan Al-Mazallat",
+        "paragraph1": "At Fan Al-Mazallat, we don't just install iron and fabric; we create outdoor environments that protect and inspire you. We launched with a vision to change the traditional concept of metalwork, replacing randomness with engineering precision, and repetitive designs with modern artistic touches that keep pace with the Kingdom's urban renaissance.",
+        "paragraph2": "Our team consists of professional engineers and technicians who ensure safe, clean, and fast installation. We use the best Korean and German materials to guarantee quality that lasts for years.",
+        "stats": {
+            "projects": "Projects Completed",
+            "years": "Years Experience",
+            "satisfaction": "Customer Satisfaction"
+        }
+    },
+    "ServicesSection": {
+        "title": "Our Services",
+        "subtitle": "We provide comprehensive shading solutions for all your needs",
+        "learnMore": "Learn More",
+        "services": {
+            "carShades": {
+                "title": "Car Shades",
+                "description": "Protect your car from sun, rain, and dust with high-quality shades. Hanging shades without front pillars for complete freedom."
             },
-            "features": {
-                "title": "Modern Tech Stack",
-                "caption": "Built with Next.js, TypeScript, and Tailwind CSS"
+            "screens": {
+                "title": "Privacy Screens",
+                "description": "Complete privacy for your garden and pool. Iron, wood, and lexan screens with modern and durable designs."
+            },
+            "pergolas": {
+                "title": "Pergolas",
+                "description": "Transform your roof or garden into a private resort. Wooden and iron pergolas with modern touches."
+            },
+            "hangars": {
+                "title": "Hangars",
+                "description": "Comprehensive industrial solutions. Shinko and sandwich panel hangars with civil defense specifications and superior thermal insulation."
             }
+        }
+    },
+    "ProjectsSection": {
+        "title": "Our Portfolio",
+        "subtitle": "We're proud of our achievements - View some of our featured projects",
+        "viewAll": "View All Projects",
+        "categories": {
+            "all": "All Projects",
+            "carShades": "Car Shades",
+            "screens": "Privacy Screens",
+            "pergolas": "Pergolas",
+            "hangars": "Hangars"
+        }
+    },
+    "WhyUsSection": {
+        "title": "Why Choose Fan Al-Mazallat?",
+        "subtitle": "We stand out with quality, commitment, and transparency in every project",
+        "features": {
+            "materials": {
+                "title": "Certified Materials",
+                "description": "We only use original materials - genuine 1100 gram PVC, SABIC iron with specification-compliant thicknesses."
+            },
+            "supervision": {
+                "title": "Engineering Supervision",
+                "description": "Every project is supervised by a specialized supervisor to ensure structural safety and excellent execution."
+            },
+            "speed": {
+                "title": "Speed & Cleanliness",
+                "description": "We commit to delivery times and leave the work site cleaner than it was."
+            },
+            "pricing": {
+                "title": "Transparent Pricing",
+                "description": "No hidden costs. We provide you with detailed pricing per meter and specifications before starting."
+            }
+        }
+    },
+    "FAQSection": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Answers to the most common questions from our customers",
+        "faqs": {
+            "difference": {
+                "question": "What's the difference between slat screens and braided screens?",
+                "answer": "Slat screens block visibility and air at 100% providing maximum privacy, while braided screens allow slight air passage (15-20%) making them more resistant to strong winds with a distinctive aesthetic appearance."
+            },
+            "guarantee": {
+                "question": "Do you offer warranty on shades?",
+                "answer": "Yes, we offer warranty starting from 5 years and up to 10 years on some types of PVC and ironwork against manufacturing and installation defects."
+            },
+            "fabricVsSheets": {
+                "question": "Which is better for car shade, fabric or shinko?",
+                "answer": "Fabric (PVC) looks better, doesn't make noise in rain, and provides excellent thermal insulation. Shinko is a practical and economical option but less aesthetic. We recommend PVC for homes."
+            },
+            "pricing": {
+                "question": "What is your shade price per meter?",
+                "answer": "PVC shade prices start from 90 SAR per meter for standard specifications, varying based on fabric type (Korean/German) and installation method. Contact us for an accurate quote."
+            }
+        }
+    },
+    "ContactSection": {
+        "title": "Contact Us",
+        "subtitle": "We're here to help. Contact us now for a free consultation",
+        "info": {
+            "title": "Contact Information",
+            "phone": "Phone Number",
+            "whatsapp": "WhatsApp",
+            "email": "Email",
+            "address": "Address",
+            "addressValue": "Jeddah, Saudi Arabia"
         },
         "buttons": {
-            "getStarted": "Get Started",
-            "learnMore": "Learn More"
+            "whatsapp": "WhatsApp",
+            "call": "Call Now"
+        },
+        "form": {
+            "title": "Send Us a Message",
+            "name": "Full Name",
+            "namePlaceholder": "Enter your name",
+            "phone": "Mobile Number",
+            "phonePlaceholder": "05xxxxxxxx",
+            "service": "Required Service",
+            "selectService": "Select Service",
+            "services": {
+                "carShades": "Car Shades",
+                "screens": "Privacy Screens",
+                "pergolas": "Pergolas",
+                "hangars": "Hangars"
+            },
+            "message": "Additional Details",
+            "messagePlaceholder": "Write your request details here...",
+            "submit": "Send Request"
+        }
+    },
+    "MapSection": {
+        "title": "Our Location",
+        "subtitle": "Visit us at our location or contact us to visit you",
+        "card": {
+            "title": "Fan Al-Mazallat",
+            "address": "Jeddah, Saudi Arabia",
+            "getDirections": "Get Directions"
         }
     },
     "Footer": {
-        "copyright": "© 2025 My App. All rights reserved.",
+        "copyright": "© 2025 Fan Al-Mazallat. All rights reserved.",
         "bottomLinks": {
             "privacy": "Privacy Policy",
-            "terms": "Terms of Use"
+            "terms": "Terms of Service"
         }
     },
     "LanguageSwitch": {
@@ -33,23 +164,25 @@
     "navItems": {
         "home": "Home",
         "about": "About",
-        "contact": "Contact Us"
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
     },
     "LoginForm": {
         "welcomeBack": "Welcome back",
-        "loginWithSocial": "Login with your Google account",
-        "loginWithGoogle": "Login with Google",
+        "loginWithSocial": "Sign in with Google",
+        "loginWithGoogle": "Sign in with Google",
         "orContinueWith": "Or continue with",
         "email": "Email",
         "emailPlaceholder": "m@example.com",
         "password": "Password",
         "passwordPlaceholder": "********",
-        "login": "Login",
+        "login": "Sign In",
         "noAccount": "Don't have an account?",
         "signUpLink": "Sign up",
         "termsAndPrivacy": "By clicking continue, you agree to our Terms of Service and Privacy Policy.",
-        "loginSuccess": "Login successful",
-        "loginWithGoogleSuccess": "Login with Google successful"
+        "loginSuccess": "Successfully logged in",
+        "loginWithGoogleSuccess": "Successfully logged in with Google"
     },
     "SignupForm": {
         "createAccount": "Create your account",
@@ -62,11 +195,11 @@
         "passwordPlaceholder": "********",
         "createAccountButton": "Create Account",
         "alreadyHaveAccount": "Already have an account?",
-        "loginLink": "Login",
+        "loginLink": "Sign in",
         "termsAndPrivacy": "By clicking continue, you agree to our Terms of Service and Privacy Policy.",
-        "signupSuccess": "Signup successful",
+        "signupSuccess": "Account created successfully",
         "orContinueWith": "Or continue with",
-        "signupWithGoogle": "Signup with Google"
+        "signupWithGoogle": "Sign up with Google"
     },
     "AuthError": {
         "USER_NOT_FOUND": "User not found",
@@ -82,12 +215,12 @@
         "INVALID_TOKEN": "Invalid token",
         "ID_TOKEN_NOT_SUPPORTED": "ID token not supported",
         "FAILED_TO_GET_USER_INFO": "Failed to get user info",
-        "USER_EMAIL_NOT_FOUND": "User email not found",
+        "USER_EMAIL_NOT_FOUND": "Email not found",
         "EMAIL_NOT_VERIFIED": "Email not verified",
         "PASSWORD_TOO_SHORT": "Password too short",
         "PASSWORD_TOO_LONG": "Password too long",
         "USER_ALREADY_EXISTS": "User already exists",
-        "EMAIL_CAN_NOT_BE_UPDATED": "Email can not be updated",
+        "EMAIL_CAN_NOT_BE_UPDATED": "Email cannot be updated",
         "CREDENTIAL_ACCOUNT_NOT_FOUND": "Credential account not found",
         "SESSION_EXPIRED": "Session expired",
         "FAILED_TO_UNLINK_LAST_ACCOUNT": "Failed to unlink last account",
@@ -97,10 +230,10 @@
     },
     "Auth": {
         "SignIn": {
-            "title": "Sign In - My App"
+            "title": "Sign In - Fan Al-Mazallat"
         },
         "SignUp": {
-            "title": "Sign Up - My App"
+            "title": "Sign Up - Fan Al-Mazallat"
         },
         "SignOut": {
             "button": "Sign Out"
@@ -109,15 +242,15 @@
     "dashboard": {
         "sidebar": {
             "title": "Dashboard",
-            "home": "Dashboard"
+            "home": "Home"
         },
         "home": {
             "title": "Welcome to Dashboard",
-            "subtitle": "Manage your application from here"
+            "subtitle": "Manage Fan Al-Mazallat website from here"
         },
         "itemsPage": {
             "title": "Items",
-            "subtitle": "Manage items in the system",
+            "subtitle": "Manage system items",
             "loadMore": "Load More",
             "loading": "Loading...",
             "noItems": "No items found"
