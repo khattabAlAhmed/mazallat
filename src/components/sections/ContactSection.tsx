@@ -67,8 +67,8 @@ const ContactSection = () => {
     };
 
     const contactInfo = [
-        { icon: FaPhone, label: t('info.phone'), value: '+966 53 439 5103', href: 'tel:+966534395103', color: 'bg-cyan-500/10 text-cyan-500' },
-        { icon: FaWhatsapp, label: t('info.whatsapp'), value: '+966 53 439 5103', href: 'https://wa.me/966534395103', color: 'bg-green-500/10 text-green-500' },
+        { icon: FaPhone, label: t('info.phone'), value: '+966 53 825 6520', href: 'tel:+966538256520', color: 'bg-cyan-500/10 text-cyan-500' },
+        { icon: FaWhatsapp, label: t('info.whatsapp'), value: '+966 53 439 5103', href: 'https://wa.me/966538256520', color: 'bg-green-500/10 text-green-500' },
         { icon: FaEnvelope, label: t('info.email'), value: 'info@fan-almizallat.com', href: 'mailto:info@fan-almizallat.com', color: 'bg-blue-500/10 text-blue-500' },
         { icon: FaMapMarkerAlt, label: t('info.address'), value: t('info.addressValue'), href: '#location', color: 'bg-red-500/10 text-red-500' },
         { icon: FaClock, label: locale === 'ar' ? 'ساعات العمل' : 'Working Hours', value: locale === 'ar' ? 'السبت - الخميس: 8 ص - 6 م' : 'Sat - Thu: 8 AM - 6 PM', href: null, color: 'bg-orange-500/10 text-orange-500' },
@@ -101,7 +101,7 @@ const ContactSection = () => {
                         {/* Quick Action Buttons */}
                         <div className="flex flex-wrap gap-3 mb-8">
                             <Link
-                                href="https://wa.me/966538256520?text=مرحباً، أريد الاستفسار عن خدماتكم"
+                                href="https://wa.me/966534395103?text=مرحباً، أريد الاستفسار عن خدماتكم"
                                 target="_blank"
                                 className="flex-1 min-w-[140px] flex items-center justify-center gap-2 px-5 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-2xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"
                             >
@@ -109,7 +109,7 @@ const ContactSection = () => {
                                 <span>{t('buttons.whatsapp')}</span>
                             </Link>
                             <Link
-                                href="tel:+966534395103"
+                                href="tel:+966538256520"
                                 className="flex-1 min-w-[140px] flex items-center justify-center gap-2 px-5 py-4 bg-gradient-to-r from-primary to-cyan-500 text-white rounded-2xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/30"
                             >
                                 <FaPhone className="w-5 h-5" />

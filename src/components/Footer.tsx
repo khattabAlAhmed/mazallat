@@ -16,7 +16,7 @@ const Footer = () => {
         { icon: FaSnapchat, href: 'https://snapchat.com', label: 'Snapchat', color: 'hover:bg-yellow-400' },
         { icon: FaTiktok, href: 'https://tiktok.com', label: 'TikTok', color: 'hover:bg-black' },
         { icon: FaXTwitter, href: 'https://twitter.com', label: 'X', color: 'hover:bg-black' },
-        { icon: FaWhatsapp, href: 'https://wa.me/966538256520', label: 'WhatsApp', color: 'hover:bg-green-500' },
+        { icon: FaWhatsapp, href: 'https://wa.me/966534395103', label: 'WhatsApp', color: 'hover:bg-green-500' },
     ];
 
     const quickLinks = [
@@ -144,9 +144,9 @@ const Footer = () => {
                         </h4>
                         <ul className="space-y-4">
                             <li>
-                                <Link href="tel:+966534395103" className="flex items-start gap-3 text-white/70 hover:text-primary transition-colors">
+                                <Link href="tel:+966538256520" className="flex items-start gap-3 text-white/70 hover:text-primary transition-colors">
                                     <Phone className="w-5 h-5 mt-0.5 text-primary" />
-                                    <span dir="ltr">+966 53 439 5103</span>
+                                    <span dir="ltr">+966 53 825 6520</span>
                                 </Link>
                             </li>
                             <li>

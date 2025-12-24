@@ -120,7 +120,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
     image: `${siteUrl}/og-image.jpg`,
-    telephone: '+966534395103',
+    telephone: '+966538256520',
     email: 'info@fan-almizallat.com',
     address: {
       '@type': 'PostalAddress',

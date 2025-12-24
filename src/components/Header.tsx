@@ -80,7 +80,7 @@ const Header = () => {
                             {/* Quick Contact - Desktop */}
                             <div className="hidden md:flex items-center gap-2">
                                 <Link
-                                    href="https://wa.me/966534395103"
+                                    href="https://wa.me/966538256520"
                                     target="_blank"
                                     className="flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
                                 >
@@ -88,7 +88,7 @@ const Header = () => {
                                     <span className="hidden xl:inline">واتساب</span>
                                 </Link>
                                 <Link
-                                    href="tel:+966534395103"
+                                    href="tel:+966538256520"
                                     className="flex items-center gap-2 px-4 py-2 bg-gradient-primary text-white rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
                                 >
                                     <Phone className="w-5 h-5" />
@@ -168,7 +168,7 @@ const Header = () => {
                         <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-border bg-muted/50">
                             <div className="flex gap-2">
                                 <Link
-                                    href="https://wa.me/966538256520"
+                                    href="https://wa.me/966534395103"
                                     target="_blank"
                                     className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl font-medium transition-colors"
                                 >
@@ -176,7 +176,7 @@ const Header = () => {
                                     <span>واتساب</span>
                                 </Link>
                                 <Link
-                                    href="tel:+966534395103"
+                                    href="tel:+966538256520"
                                     className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-gradient-primary text-white rounded-xl font-medium transition-colors"
                                 >
                                     <Phone className="w-5 h-5" />

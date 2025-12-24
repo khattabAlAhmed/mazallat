@@ -63,7 +63,7 @@ const FloatingContactButtons = () => {
 
             {/* Phone Button */}
             <Link
-                href="tel:+966534395103"
+                href="tel:+966538256520"
                 className="group w-12 h-12 md:w-14 md:h-14 bg-gradient-to-r from-primary to-cyan-500 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-primary/40"
                 aria-label="اتصل بنا"
             >
@@ -73,7 +73,7 @@ const FloatingContactButtons = () => {
             {/* WhatsApp Button */}
             <Link
                 ref={whatsappRef}
-                href="https://wa.me/966538256520?text=مرحباً، أريد الاستفسار عن خدماتكم"
+                href="https://wa.me/966534395103?text=مرحباً، أريد الاستفسار عن خدماتكم"
                 target="_blank"
                 className="relative w-14 h-14 md:w-16 md:h-16 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 hover:shadow-xl hover:shadow-green-500/40"
                 aria-label="تواصل عبر الواتساب"
