@@ -48,6 +48,34 @@
             "hangars": {
                 "title": "Hangars",
                 "description": "Comprehensive industrial solutions. Shinko and sandwich panel hangars with civil defense specifications and superior thermal insulation."
+            },
+            "bedouinTents": {
+                "title": "Bedouin Tents",
+                "description": "Luxurious Bedouin tents with traditional and modern designs. Professional installation with weather-resistant materials."
+            },
+            "tiles": {
+                "title": "Roof Tiles (Qaramid)",
+                "description": "High-quality roof tile installation for homes and villas. Diverse designs to suit all tastes."
+            },
+            "fences": {
+                "title": "Chain Link Fences",
+                "description": "Durable protection fences for farms, lands, and facilities. Fast installation with comprehensive warranty."
+            },
+            "seating": {
+                "title": "Outdoor Seating",
+                "description": "Luxurious outdoor seating for gardens and rooftops. Modern designs with weather-resistant materials."
+            },
+            "gardens": {
+                "title": "Gardens",
+                "description": "Garden design and landscaping with modern techniques. Natural and artificial grass installation."
+            },
+            "playgrounds": {
+                "title": "Playgrounds",
+                "description": "Sports field and children's playground setup. Safe flooring and high-quality equipment."
+            },
+            "sandwichPanels": {
+                "title": "Sandwich Panels",
+                "description": "Sandwich panels for thermal and acoustic insulation. Ideal for warehouses and industrial buildings."
             }
         }
     },
@@ -60,7 +88,14 @@
             "carShades": "Car Shades",
             "screens": "Privacy Screens",
             "pergolas": "Pergolas",
-            "hangars": "Hangars"
+            "hangars": "Hangars",
+            "bedouinTents": "Bedouin Tents",
+            "tiles": "Roof Tiles",
+            "fences": "Fences",
+            "seating": "Outdoor Seating",
+            "gardens": "Gardens",
+            "playgrounds": "Playgrounds",
+            "sandwichPanels": "Sandwich Panels"
         }
     },
     "WhyUsSection": {
@@ -134,7 +169,14 @@
                 "carShades": "Car Shades",
                 "screens": "Privacy Screens",
                 "pergolas": "Pergolas",
-                "hangars": "Hangars"
+                "hangars": "Hangars",
+                "bedouinTents": "Bedouin Tents",
+                "tiles": "Roof Tiles",
+                "fences": "Fences",
+                "seating": "Outdoor Seating",
+                "gardens": "Gardens",
+                "playgrounds": "Playgrounds",
+                "sandwichPanels": "Sandwich Panels"
             },
             "message": "Additional Details",
             "messagePlaceholder": "Write your request details here...",

@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslations, useLocale } from 'next-intl';
-import { Car, Shield, Home, Building2, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Car, Shield, Home, Building2, ArrowRight, ArrowLeft, Tent, Layers, Fence, Armchair, TreeDeciduous, Dumbbell, Boxes } from 'lucide-react';
 import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -40,6 +40,48 @@ const services: Service[] = [
         icon: <Building2 className="w-8 h-8 md:w-10 md:h-10" />,
         gradient: 'from-orange-500 to-red-600',
         bgPattern: 'bg-orange-500/5',
+    },
+    {
+        key: 'bedouinTents',
+        icon: <Tent className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-amber-500 to-yellow-600',
+        bgPattern: 'bg-amber-500/5',
+    },
+    {
+        key: 'tiles',
+        icon: <Layers className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-stone-500 to-slate-600',
+        bgPattern: 'bg-stone-500/5',
+    },
+    {
+        key: 'fences',
+        icon: <Fence className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-zinc-500 to-neutral-600',
+        bgPattern: 'bg-zinc-500/5',
+    },
+    {
+        key: 'seating',
+        icon: <Armchair className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-teal-500 to-cyan-600',
+        bgPattern: 'bg-teal-500/5',
+    },
+    {
+        key: 'gardens',
+        icon: <TreeDeciduous className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-lime-500 to-green-600',
+        bgPattern: 'bg-lime-500/5',
+    },
+    {
+        key: 'playgrounds',
+        icon: <Dumbbell className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-rose-500 to-pink-600',
+        bgPattern: 'bg-rose-500/5',
+    },
+    {
+        key: 'sandwichPanels',
+        icon: <Boxes className="w-8 h-8 md:w-10 md:h-10" />,
+        gradient: 'from-sky-500 to-indigo-600',
+        bgPattern: 'bg-sky-500/5',
     },
 ];
 

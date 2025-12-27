@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : 'Fan Al-Mazallat - Best car shades and screens company in Jeddah. We provide car shades, privacy screens, pergolas, and hangars with high quality and 10-year warranty. Call now for a free quote!';
 
   const keywords = isArabic
-    ? ['مظلات', 'سواتر', 'مظلات سيارات', 'مظلات جدة', 'سواتر جدة', 'برجولات', 'هناجر', 'تركيب مظلات', 'أسعار المظلات', 'فن المظلات', 'مظلات السعودية']
-    : ['car shades', 'privacy screens', 'pergolas', 'hangars', 'shading solutions', 'Jeddah shades', 'Saudi Arabia', 'Fan Al-Mazallat', 'awnings'];
+    ? ['مظلات', 'سواتر', 'مظلات سيارات', 'مظلات جدة', 'سواتر جدة', 'برجولات', 'هناجر', 'تركيب مظلات', 'أسعار المظلات', 'فن المظلات', 'مظلات السعودية', 'خيام بيوت الشعر جدة', 'قراميد جدة', 'شبوك جدة', 'جلسات خارجية', 'تنسيق حدائق جدة', 'ملاعب', 'ساندويش بنل جدة']
+    : ['car shades', 'privacy screens', 'pergolas', 'hangars', 'shading solutions', 'Jeddah shades', 'Saudi Arabia', 'Fan Al-Mazallat', 'awnings', 'bedouin tents Jeddah', 'roof tiles', 'chain link fences', 'outdoor seating', 'garden landscaping', 'playgrounds', 'sandwich panels'];
 
   return {
     title: {
@@ -115,8 +115,8 @@ export default async function LocaleLayout({ children, params }: Props) {
     '@type': 'LocalBusiness',
     name: locale === 'ar' ? 'فن المظلات' : 'Fan Al-Mazallat',
     description: locale === 'ar'
-      ? 'شركة متخصصة في تركيب المظلات والسواتر والبرجولات والهناجر في جدة'
-      : 'Specialized company in installing shades, screens, pergolas and hangars in Jeddah',
+      ? 'شركة متخصصة في تركيب المظلات والسواتر والبرجولات والهناجر وخيام بيوت الشعر والقراميد والشبوك وتنسيق الحدائق في جدة'
+      : 'Specialized company in installing shades, screens, pergolas, hangars, bedouin tents, roof tiles, fences, and garden landscaping in Jeddah',
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
     image: `${siteUrl}/og-image.jpg`,
@@ -173,6 +173,55 @@ export default async function LocaleLayout({ children, params }: Props) {
           itemOffered: {
             '@type': 'Service',
             name: locale === 'ar' ? 'الهناجر' : 'Hangars',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'خيام بيوت الشعر' : 'Bedouin Tents',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'قراميد' : 'Roof Tiles',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'شبوك' : 'Chain Link Fences',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'الجلسات' : 'Outdoor Seating',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'الحدائق' : 'Gardens',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'الملاعب' : 'Playgrounds',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: locale === 'ar' ? 'ساندويش بنل' : 'Sandwich Panels',
           },
         },
       ],
